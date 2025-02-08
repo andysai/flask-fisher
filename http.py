@@ -9,3 +9,4 @@ class HTTP:
         return r.json() if return_json else r.text
 
 print('test')
+print(HTTP.get())
